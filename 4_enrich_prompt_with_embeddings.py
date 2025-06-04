@@ -1,8 +1,11 @@
-import cohere, nltk
+import cohere
 from nltk.tokenize import word_tokenize
 from nltk.tag import pos_tag
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
+import nltk
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger_eng')
 
 co = cohere.Client("xSfqQtfn5Yw4lSguFJnzVNDhdexYMTzQwTLTVtsT")
 
@@ -26,3 +29,4 @@ original = "Describe the impact of artificial intelligence on healthcare."
 enriched = enhance_prompt(original)
 print("Original Prompt:", original)
 print("Enriched Prompt:", enriched)
+
