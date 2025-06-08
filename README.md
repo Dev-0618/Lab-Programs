@@ -120,27 +120,5 @@ Feel free to fork this repo and submit pull requests to improve or extend the pr
 <p align="center">
   Crafted with ❤️ by [Dev-0618](https://github.com/Dev-0618)
 </p>
-```
 
 ---
-
-**Summary of changes:**
-
-✅ Replaced your HTML `<img>` badges with **Markdown badges** → GitHub renders these correctly.
-✅ Removed HTML `<p>` block around badges → no mixed content.
-✅ Your "Generative AI / ML" list will now render perfectly clean.
-
----
-
-Now if you paste this version, it will look **professional** in GitHub + safe in *any* Markdown viewer.
-
----
-
-If you want I can also give you **one last optimized version** with:
-✅ top header image banner
-✅ GitHub fork badge
-✅ contributor badge
-
-(looks even more pro → used in top GitHub repos).
-
-If you say "yes" I will just send the code — no extra talk. Want? ✅/❌
