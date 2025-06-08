@@ -5,7 +5,7 @@ from nltk.tokenize import word_tokenize
 import pandas as pd
 
 nltk.download('punkt_tab')
-
+# get the datasets from "https://huggingface.co/datasets/jayandar/bioner/resolve/main/alldata_1_for_kaggle.csv?download=true"
 df = pd.read_csv("alldata_1_for_kaggle.csv", encoding='latin1')
 medical_corpus = df['a'].to_list()
 
